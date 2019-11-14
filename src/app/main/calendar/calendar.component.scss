@@ -6,15 +6,28 @@
     background-color: #26233e;
     color: white !important;
 }
+.arrow-color {
+    color: inherit !important;
+    background: rgb(47, 62, 173) !important;
+}
+.month-title {
+    padding-right: 200px;
+    padding-left: 190px;
+    margin-left: -200px !important;
+}
 .cal-month-view {
-
     .cal-header {
-
         .cal-cell {
             font-weight: 600;
+            &:hover{
+                background: none !important;
+            }
         }
     }
-
+.mat-fab {
+    width: 0px !important;
+    height: 50px !important;
+}
     .cal-day-cell {
 
         @include media-breakpoint(lg) {
@@ -193,15 +206,15 @@
 #calendar {
 
     .header {
-        height: 200px;
-        min-height: 200px;
-        max-height: 200px;
-        position: relative;
-        background-size: 100% auto;
-        background-position: 0 50%;
-        background-repeat: no-repeat;
-        background-color: #FAFAFA;
-        color: #FFFFFF;
+        // height: 200px;
+        // min-height: 200px;
+        // max-height: 200px;
+        // position: relative;
+        // background-size: 100% auto;
+        // background-position: 0 50%;
+        // background-repeat: no-repeat;
+        // background-color: #FAFAFA;
+        // color: #FFFFFF;
 
         @include media-breakpoint(xs) {
             height: 164px;
@@ -209,65 +222,65 @@
             max-height: 164px;
         }
 
-        &:before {
-            content: '';
-            position: absolute;
-            top: 0;
-            right: 0;
-            bottom: 0;
-            left: 0;
-            z-index: 1;
-            background: rgba(0, 0, 0, 0.45);
-        }
+        // &:before {
+        //     content: '';
+        //     position: absolute;
+        //     top: 0;
+        //     right: 0;
+        //     bottom: 0;
+        //     left: 0;
+        //     z-index: 1;
+        //     background: rgba(0, 0, 0, 0.45);
+        // }
 
-        &.Jan {
-            background-image: url('/assets/images/calendar/winter.jpg');
-            background-position: 0 85%;
-        }
-        &.Feb {
-            background-image: url('/assets/images/calendar/winter.jpg');
-            background-position: 0 85%;
-        }
-        &.Mar {
-            background-image: url('/assets/images/calendar/spring.jpg');
-            background-position: 0 40%;
-        }
-        &.Apr {
-            background-image: url('/assets/images/calendar/spring.jpg');
-            background-position: 0 40%;
-        }
-        &.May {
-            background-image: url('/assets/images/calendar/spring.jpg');
-            background-position: 0 40%;
-        }
-        &.Jun {
-            background-image: url('/assets/images/calendar/summer.jpg');
-            background-position: 0 80%;
-        }
-        &.Jul {
-            background-image: url('/assets/images/calendar/summer.jpg');
-            background-position: 0 80%;
-        }
-        &.Aug {
-            background-image: url('/assets/images/calendar/summer.jpg');
-            background-position: 0 80%;
-        }
-        &.Sep {
-            background-image: url('/assets/images/calendar/autumn.jpg');
-            background-position: 0 40%;
-        }
-        &.Oct {
-            background-image: url('/assets/images/calendar/autumn.jpg');
-            background-position: 0 40%;
-        }
-        &.Nov {
-            background-image: url('/assets/images/calendar/autumn.jpg');
-            background-position: 0 40%;
-        }
-        &.Dec {
-            background-image: url('/assets/images/calendar/winter.jpg');
-            background-position: 0 85%;
-        }
+        // &.Jan {
+        //     background-image: url('/assets/images/calendar/winter.jpg');
+        //     background-position: 0 85%;
+        // }
+        // &.Feb {
+        //     background-image: url('/assets/images/calendar/winter.jpg');
+        //     background-position: 0 85%;
+        // }
+        // &.Mar {
+        //     background-image: url('/assets/images/calendar/spring.jpg');
+        //     background-position: 0 40%;
+        // }
+        // &.Apr {
+        //     background-image: url('/assets/images/calendar/spring.jpg');
+        //     background-position: 0 40%;
+        // }
+        // &.May {
+        //     background-image: url('/assets/images/calendar/spring.jpg');
+        //     background-position: 0 40%;
+        // }
+        // &.Jun {
+        //     background-image: url('/assets/images/calendar/summer.jpg');
+        //     background-position: 0 80%;
+        // }
+        // &.Jul {
+        //     background-image: url('/assets/images/calendar/summer.jpg');
+        //     background-position: 0 80%;
+        // }
+        // &.Aug {
+        //     background-image: url('/assets/images/calendar/summer.jpg');
+        //     background-position: 0 80%;
+        // }
+        // &.Sep {
+        //     background-image: url('/assets/images/calendar/autumn.jpg');
+        //     background-position: 0 40%;
+        // }
+        // &.Oct {
+        //     background-image: url('/assets/images/calendar/autumn.jpg');
+        //     background-position: 0 40%;
+        // }
+        // &.Nov {
+        //     background-image: url('/assets/images/calendar/autumn.jpg');
+        //     background-position: 0 40%;
+        // }
+        // &.Dec {
+        //     background-image: url('/assets/images/calendar/winter.jpg');
+        //     background-position: 0 85%;
+        // }
 
         .header-content {
             height: 100%;

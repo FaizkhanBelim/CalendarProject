@@ -30,12 +30,12 @@
             .cal-cell-row {
                 border-color: map-get($foreground, divider);
 
-                &:hover {
-                    background: map-get($background, hover);
-                }
+                // &:hover {
+                //     background: map-get($background, hover);
+                // }
 
                 .cal-day-cell {
-
+                    min-height: 50px !important;
                     &:not(:last-child) {
                         border-color: map-get($foreground, divider);
                     }
@@ -54,9 +54,9 @@
                         }
                     }
 
-                    &:hover {
-                        background: map-get($background, hover);
-                    }
+                    // &:hover {
+                    //     background: map-get($background, hover);
+                    // }
                 }
             }
         }
