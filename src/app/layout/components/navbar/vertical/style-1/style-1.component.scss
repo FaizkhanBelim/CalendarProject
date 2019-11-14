@@ -175,16 +175,15 @@ navbar {
                 padding: 24px 0 64px 0;
 
                 .avatar-container {
-                    position: absolute;
-                    top: 92px;
-                    border-radius: 50%;
-                    padding: 8px;
-                    transform: translateX(-50%);
-                    left: 50%;
-
+                    // position: absolute;
+                    // top: 92px;
+                    // border-radius: 50%;
+                    // padding: 8px;
+                    // transform: translateX(-50%);
+                    // left: 50%;
                     .avatar {
-                        width: 72px;
-                        height: 72px;
+                        width: 100px;
+                        height: 100px;
                         margin: 0;
                     }
                 }

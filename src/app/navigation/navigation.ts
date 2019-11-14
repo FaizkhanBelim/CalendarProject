@@ -9,17 +9,35 @@ export const navigation: FuseNavigation[] = [
         children : [
             {
                 id       : 'sample',
-                title    : 'Sample',
-                translate: 'NAV.SAMPLE.TITLE',
+                title    : 'Message',
+                translate: 'You',
                 type     : 'item',
                 icon     : 'email',
                 url      : '/sample',
-                badge    : {
-                    title    : '25',
-                    translate: 'NAV.SAMPLE.BADGE',
-                    bg       : '#F44336',
-                    fg       : '#FFFFFF'
-                }
+            },
+            {
+                id       : 'sample',
+                title    : 'Message',
+                translate: 'Message',
+                type     : 'item',
+                icon     : 'email',
+                url      : '/sample',
+            },
+            {
+                id       : 'sample',
+                title    : 'Message',
+                translate: 'Colaboration',
+                type     : 'item',
+                icon     : 'email',
+                url      : '/sample',
+            },
+            {
+                id       : 'sample',
+                title    : 'Message',
+                translate: 'Newsfeed',
+                type     : 'item',
+                icon     : 'email',
+                url      : '/sample',
             }
         ]
     }

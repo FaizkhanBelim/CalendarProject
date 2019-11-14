@@ -1,6 +1,11 @@
 @import "src/@fuse/scss/fuse";
 @import "node_modules/angular-calendar/scss/angular-calendar";
-
+.claender-color {
+    width: 443px;
+    height: 1000px;
+    background-color: #26233e;
+    color: white !important;
+}
 .cal-month-view {
 
     .cal-header {
