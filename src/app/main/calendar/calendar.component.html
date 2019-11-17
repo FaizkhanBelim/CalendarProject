@@ -49,14 +49,18 @@
       <div class="title month-title">
         {{ viewDate | calendarDate:(view + 'ViewTitle'):'en' }}
       </div>
+      <div>
       <button mat-icon-button class="arrow arrow-color" mwlCalendarPreviousView [view]="view" [(viewDate)]="viewDate" (viewDateChange)="selectedDay = {date:$event}"
         aria-label="Previous">
         <mat-icon class='text-left'>chevron_left</mat-icon>
       </button>
+    </div>
+    <div class='arrow-margin'>
       <button mat-icon-button class="arrow arrow-color" mwlCalendarNextView [view]="view" [(viewDate)]="viewDate" (viewDateChange)="selectedDay = {date:$event}"
         aria-label="Next">
         <mat-icon>chevron_right</mat-icon>
       </button>
+    </div>
     </div>
     <div [ngSwitch]="view">
       <mwl-calendar-month-view *ngSwitchCase="'month'" [viewDate]="viewDate" [events]="events" [refresh]="refresh" [activeDayIsOpen]="activeDayIsOpen"

@@ -347,8 +347,12 @@
 .cal-month-view .cal-cell-top {
     min-height: 0px !important;
 }
-.cal-cell.cal-day-cell.cal-past.cal-weekend.cal-out-month {
-     &hover {
-    background: none !important;
+.cal-month-view .cal-days {
+    border: 0px !important;
 }
+.cal-month-view .cal-days .cal-cell-row {
+    border: 0px !important;
+}
+.arrow-margin {
+    margin-left: 10px;
 }

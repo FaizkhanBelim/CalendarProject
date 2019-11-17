@@ -60,7 +60,6 @@ const appRoutes: Routes = [
         MatButtonModule,
         MatIconModule,
 
-        // Fuse modules
         FuseModule.forRoot(fuseConfig),
         FuseProgressBarModule,
         FuseSharedModule,
