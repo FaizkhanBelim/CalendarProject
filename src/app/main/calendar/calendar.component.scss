@@ -24,9 +24,9 @@
             }
         }
     }
-.mat-fab {
-    width: 0px !important;
-    height: 50px !important;
+.add-event-button {
+
+
 }
     .cal-day-cell {
 
@@ -314,15 +314,41 @@
             }
         }
 
-        .add-event-button {
-            position: absolute;
-            right: 18px;
-            bottom: -26px;
-            z-index: 10;
-        }
     }
-
+        .add-event-button {
+            right: 18px !important;
+            z-index: 10;
+            width: 460px !important;
+            height: 40px !important;
+            border-radius: 0% !important;
+            background-color: #49ce96
+        }
+        .mat-button-wrapper {
+            padding: 0px !important;
+        }
     .content {
         padding: 24px;
     }
+}
+.cal-month-view .cal-day-cell {
+    border-right: 0px !important;
+}
+.cal-month-view .cal-day-number  {
+    opacity: 1 !important;
+}
+@media screen and (max-width: 1919px) and (min-width: 1280px) {
+.cal-month-view .cal-day-cell {
+        min-height: 0px !important;
+    }
+}
+.cal-month-view .cal-day-cell {
+    min-height: 0px !important;
+}
+.cal-month-view .cal-cell-top {
+    min-height: 0px !important;
+}
+.cal-cell.cal-day-cell.cal-past.cal-weekend.cal-out-month {
+     &hover {
+    background: none !important;
+}
 }

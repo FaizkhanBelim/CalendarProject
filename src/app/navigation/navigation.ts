@@ -12,7 +12,7 @@ export const navigation: FuseNavigation[] = [
                 title    : 'Message',
                 translate: 'You',
                 type     : 'item',
-                icon     : 'email',
+                icon     : 'supervised_user_circle',
                 url      : '/sample',
             },
             {
@@ -28,7 +28,7 @@ export const navigation: FuseNavigation[] = [
                 title    : 'Message',
                 translate: 'Colaboration',
                 type     : 'item',
-                icon     : 'email',
+                icon     : 'insert_link',
                 url      : '/sample',
             },
             {
@@ -36,7 +36,7 @@ export const navigation: FuseNavigation[] = [
                 title    : 'Message',
                 translate: 'Newsfeed',
                 type     : 'item',
-                icon     : 'email',
+                icon     : 'surround_sound',
                 url      : '/sample',
             }
         ]
